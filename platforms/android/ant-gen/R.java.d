@@ -1,4 +1,4 @@
-/media/SB-1TB/workarea/geowiki/platforms/android/ant-gen/com/ionicframework/starter/R.java \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-gen/com/codeworks_eng/geowiki/R.java \
  : /media/SB-1TB/workarea/geowiki/platforms/android/res/drawable-hdpi/icon.png \
 /media/SB-1TB/workarea/geowiki/platforms/android/res/drawable-xhdpi/icon.png \
 /media/SB-1TB/workarea/geowiki/platforms/android/res/drawable-port-xhdpi/screen.png \

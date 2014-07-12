@@ -9,21 +9,32 @@
 
   <ion-side-menu side="left">
     <header class="bar bar-header bar-stable">
-      <h1 class="title">Left</h1>
+      <h1 class="title"><i class="icon ion-gear-a"></i> Settings</h1>
     </header>
     <ion-content class="has-header">
       <ion-list>
-        <ion-item nav-clear menu-close ng-click="login()">
-          Login
+        <ion-item class="item-divider">
+          Radius: <span class="badge badge-positive">{{settings.radius}} metres</span>
+          <div class="range range-positive">
+            <i class="icon  ion-minus-circled"></i>
+            <input type="range" ng-model="settings.radius" min="250" max="5000">
+            <i class="icon ion-plus-circled"></i>
+          </div>
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/search">
-          Search
+        <ion-item>
+          <label class="item item-input item-select">
+            <div class="input-label">
+              <i class="icon ion-planet"></i> Languages
+            </div>
+            <select ng-model="settings.language">
+              <option ng-repeat="lang in languages" ng-selected="lang.default == true">{{lang.lang}}</option>
+            </select>
+          </label>
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/browse">
-          Browse
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/playlists">
-          Playlists
+        <ion-item>
+          <button ng-click="setSettings(settings)" class="button button-block button-balanced">
+            <i class="icon ion-ios7-search"></i> Search!
+          </button>
         </ion-item>
       </ion-list>
     </ion-content>

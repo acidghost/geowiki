@@ -4,6 +4,7 @@
     <description>
         Geolocation based Wikipedia articles near you (Ionic framework test app)
     </description>
+    <icon src="res/icon.png" />
     <author email="info@codeworks-eng.com" href="http://codeworks-eng.com/">
       Codeworks
     </author>

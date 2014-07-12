@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.codeworks-eng.geowiki" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <preference name="AndroidLaunchMode" value="singleTop" />
     <feature name="App">
@@ -12,12 +12,13 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <name>HelloCordova</name>
+    <name>GeoWiki</name>
     <description>
-        An Ionic Framework and Cordova project.
+        Geolocation based Wikipedia articles near you (Ionic framework test app)
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+    <icon src="res/icon.png" />
+    <author email="info@codeworks-eng.com" href="http://codeworks-eng.com/">
+      Codeworks
     </author>
     <content src="index.html" />
     <access origin="*" />

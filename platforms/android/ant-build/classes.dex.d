@@ -1,5 +1,12 @@
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes.dex : \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R$drawable.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R$string.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/BuildConfig.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/HelloCordova.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R$attr.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R$xml.class \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/ionicframework/starter/R$drawable.class \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/ionicframework/starter/R$string.class \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/ionicframework/starter/R.class \
