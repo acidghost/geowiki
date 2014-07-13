@@ -12,4 +12,12 @@ angular.module('GeoWiki.services', ['ngResource'])
       }
     );
 
+  })
+
+.factory('Wikipedia', function($resource) {
+
+    return $resource('http://:language.wikipedia.org/w/api.php?action=parse&format=json&prop=text&section=0&page=:pagename', null,
+      { 'get': { method: 'GET' } }
+    );
+
   });

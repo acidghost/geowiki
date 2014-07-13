@@ -16,9 +16,9 @@
         <ion-item class="item-divider">
           Radius: <span class="badge badge-positive">{{settings.radius}} metres</span>
           <div class="range range-positive">
-            <i class="icon  ion-minus-circled"></i>
-            <input type="range" ng-model="settings.radius" min="250" max="5000">
-            <i class="icon ion-plus-circled"></i>
+            <button ng-click="decrementRadius(50)" class="button button-small button-clear button-positive icon ion-minus-circled">&nbsp;</button>
+            <input type="range" ng-model="settings.radius" min="250" max="5000" step="50">
+            <button ng-click="incrementRadius(50)" class="button button-small button-clear button-positive icon ion-plus-circled">&nbsp;</button>
           </div>
         </ion-item>
         <ion-item>

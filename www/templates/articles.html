@@ -3,6 +3,7 @@
     <button menu-toggle="left" class="button button-icon icon ion-ios7-settings"></button>
   </ion-nav-buttons>
   <ion-content class="has-header">
+    <ion-refresher on-refresh="updateWikiArticles()"></ion-refresher>
     <div class="card" ng-show="articles.length == 0">
       <div class="item item-text-wrap positive-bg" style="color: #ffffff">
         Swipe right to open the settings
@@ -11,10 +12,32 @@
         Start by set the preferences and start explore Wikipedia... <strong>for real!</strong>
       </div>
     </div>
-    <ion-list>
-      <ion-item ng-repeat="article in articles">
-        {{article.title}}
-      </ion-item>
-    </ion-list>
+    <div class="list card" ng-repeat="article in articles">
+      <div class="item item-avatar">
+        <img ng-src="http://maps.googleapis.com/maps/api/staticmap?center={{article.lat}},{{article.lng}}&zoom=13&size=60x60&key=AIzaSyD5XZf3gl9H685SjXcKa0q2nNqP7G34ToE" />
+        <h2>{{article.title}}</h2>
+        <p>{{article.distance}}</p>
+      </div>
+      <div class="item item-body">
+        <img class="full-image" ng-src="http://maps.googleapis.com/maps/api/streetview?location={{article.lat}},{{article.lng}}&heading=0&size=600x400&key=AIzaSyD5XZf3gl9H685SjXcKa0q2nNqP7G34ToE" />
+        <ul class="list">
+          <li class="item item-toggle">
+            Summary
+            <label class="toggle">
+              <input ng-click="loadWikiSummary(article, $index)" ng-model="articles[$index].loadWiki" ng-checked="false" type="checkbox">
+              <div class="track">
+                <div class="handle"></div>
+              </div>
+            </label>
+          </li>
+        </ul>
+        <div ng-show="article.loadWiki">
+          {{article.text}}
+        </div>
+        <a class="button button-block button-energized" href="#" ng-click="openLink(article.mobileurl)">
+          <i class="icon ion-eye"></i> Open on Wikipedia
+        </a>
+      </div>
+    </div>
   </ion-content>
 </ion-view>

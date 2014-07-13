@@ -1,5 +1,19 @@
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes.dex : \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4$1.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
+/media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R$drawable.class \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R$string.class \
 /media/SB-1TB/workarea/geowiki/platforms/android/ant-build/classes/com/codeworks_eng/geowiki/R.class \
