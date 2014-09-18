@@ -4,4 +4,5 @@ www/lib
 .sass-cache
 #platforms/^.*
 platforms/*
+plugins
 
